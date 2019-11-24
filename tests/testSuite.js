@@ -1,4 +1,3 @@
-//automated pipeline tests
 
 let answer = process.env.ANSWER
 answer = answer.split(' ')

@@ -19,7 +19,7 @@ fi
 
 
 echo -Running code...
-NUM=$NUM node ./src/ChangeTheWorld.js > answer.txt
+NUM=$NUM node ./src/fizzBuzzFeature.js > answer.txt
 
 
 echo -Running Tests...

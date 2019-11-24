@@ -1,5 +1,5 @@
 
-const fizzBuzz = function(num) {
+const fizzBuzzFeature = function(num) {
     let answer = ''
     for(let i = 1; i <= num; i++) {
         if(i % 3 == 0 && i % 5 == 0) {
@@ -16,4 +16,4 @@ const fizzBuzz = function(num) {
 }
 
 const num = process.env.NUM
-console.log(fizzBuzz(num))
+console.log(fizzBuzzFeature(num))
