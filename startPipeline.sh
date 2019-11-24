@@ -10,16 +10,16 @@ echo -Configuring environment...
 
 
 if [[ "$TESTENV" == "dev" ]]; then
-    NUM=$(cat ./config/developmentEnv.txt)
+    CONFIGNUM=$(cat ./config/developmentEnv.txt)
 fi
 
 if [[ "$TESTENV" == "prod" ]]; then
-    NUM=$(cat ./config/productionEnv.txt)
+    CONFIGNUM=$(cat ./config/productionEnv.txt)
 fi
 
 
 echo -Running code...
-NUM=$NUM node ./src/fizzBuzzFeature.js > answer.txt
+NUM=$CONFIGNUM node ./src/fizzBuzzFeature.js > answer.txt
 
 
 echo -Running Tests...
