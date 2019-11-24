@@ -1,0 +1,10 @@
+From: CI/CD Team <ci-cd@company.com>
+To: Dev Team <dev@company.com>
+Subject: Automated Pipeline Results
+Date: Mon, 7 Nov 2019 12:15:03
+
+Hello Dev Team,
+
+Here are your pipeline test results:
+
+
